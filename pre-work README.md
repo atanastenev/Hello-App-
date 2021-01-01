@@ -1,14 +1,12 @@
 ## Prework - Hello Text App
 
 ### App Description
-`TODO://` Add app description
+This simple "Hello" app has a total of 4 functionalities. It allows the user to enter text in the white field at the top of the app, click the button "Change Text String" to change the displayed text to the text the user entered, click the button "Change Text Color" to change the color to the text to orange, and click the button "Change View Color" to change the bavkground color to an aggresively dark blue. Finally, the user than reset the settings by tapping/clikcing at the backgounrd of the app.
 
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src="YOUR_GIF_URL_HERE" width=200><br>
-
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
