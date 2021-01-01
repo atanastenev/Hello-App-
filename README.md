@@ -7,9 +7,6 @@ This simple "Hello" app has a total of 4 functionalities. It allows the user to 
 
 ![](https://i.imgur.com/Lx5e6sN.gif)
 
-
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
-
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
 - [x] 2. User see's custom background color.
