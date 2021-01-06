@@ -5,7 +5,7 @@ This simple "Hello" app has a total of 4 functionalities. It allows the user to 
 
 ### App Walk-though
 
-![](https://i.imgur.com/Lx5e6sN.gif)
+![](https://i.imgur.com/Q8U38w5.gif)
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
