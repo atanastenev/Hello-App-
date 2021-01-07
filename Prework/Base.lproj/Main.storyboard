@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Prework" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUa-po-1Jt">
+                                <rect key="frame" x="134.66666666666666" y="602" width="144.99999999999997" height="50"/>
+                                <color key="backgroundColor" red="0.51990618509999997" green="1" blue="0.4933934988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NwG-Wx-KBa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Change Text Color">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8KD-Ff-9Kd"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QGm-Ob-tGG">
+                                <rect key="frame" x="45" y="204" width="324" height="288"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello from Nasko" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhY-fm-tZ5">
+                                        <rect key="frame" x="0.0" y="0.0" width="324" height="288"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="bhY-fm-tZ5" firstAttribute="top" secondItem="QGm-Ob-tGG" secondAttribute="top" id="1KO-GY-pvk"/>
+                                    <constraint firstAttribute="bottom" secondItem="bhY-fm-tZ5" secondAttribute="bottom" id="1Uk-W9-4Zb"/>
+                                    <constraint firstAttribute="trailing" secondItem="bhY-fm-tZ5" secondAttribute="trailing" id="2TB-Fa-qFf"/>
+                                    <constraint firstAttribute="height" constant="288" id="Cgf-gv-KTr"/>
+                                    <constraint firstItem="bhY-fm-tZ5" firstAttribute="leading" secondItem="QGm-Ob-tGG" secondAttribute="leading" id="uhy-6c-2V6"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qh-4Z-qEe">
+                                <rect key="frame" x="133.66666666666666" y="542" width="146.99999999999997" height="50"/>
+                                <color key="backgroundColor" red="0.51990618509999997" green="1" blue="0.4933934988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3E8-d7-Gic"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Change Text String">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapTextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZBC-aV-Yz8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHb-Va-ZLL">
+                                <rect key="frame" x="131" y="662" width="152" height="50"/>
+                                <color key="backgroundColor" red="0.51990618509999997" green="1" blue="0.4933934988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="utv-vQ-yqL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Change View Color">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapViewBottom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VHN-tZ-PqY"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3tp-Gf-HaT">
+                                <rect key="frame" x="45" y="114" width="324" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.69811083630000004" green="1" blue="0.72260634680000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GHb-Va-ZLL" secondAttribute="bottom" constant="150" id="3Ze-tb-YIQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3tp-Gf-HaT" secondAttribute="trailing" constant="45" id="7SW-yF-JPB"/>
+                            <constraint firstItem="3tp-Gf-HaT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="HMk-T3-gla"/>
+                            <constraint firstItem="0Qh-4Z-qEe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hzn-lv-t4G"/>
+                            <constraint firstItem="0Qh-4Z-qEe" firstAttribute="top" secondItem="QGm-Ob-tGG" secondAttribute="bottom" constant="50" id="LOT-Xx-wbK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QGm-Ob-tGG" secondAttribute="trailing" constant="45" id="NPw-5h-inP"/>
+                            <constraint firstItem="oUa-po-1Jt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UeI-j2-2ky"/>
+                            <constraint firstItem="QGm-Ob-tGG" firstAttribute="top" secondItem="3tp-Gf-HaT" secondAttribute="bottom" constant="50" id="Ufx-3v-llp"/>
+                            <constraint firstItem="GHb-Va-ZLL" firstAttribute="top" secondItem="oUa-po-1Jt" secondAttribute="bottom" constant="10" id="Wab-Jm-apG"/>
+                            <constraint firstItem="3tp-Gf-HaT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="YTa-eD-Tbx"/>
+                            <constraint firstItem="oUa-po-1Jt" firstAttribute="top" secondItem="0Qh-4Z-qEe" secondAttribute="bottom" constant="10" id="Ze3-Id-DOA"/>
+                            <constraint firstItem="QGm-Ob-tGG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="e69-gl-asH"/>
+                            <constraint firstItem="3tp-Gf-HaT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kxi-df-jMO"/>
+                            <constraint firstItem="GHb-Va-ZLL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x4x-uK-ZvY"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="cHe-d6-XIg" appends="YES" id="ojM-N6-sTY"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="3tp-Gf-HaT" id="mc5-8r-9Re"/>
+                        <outlet property="textLabel" destination="bhY-fm-tZ5" id="UVh-mn-1Gt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="cHe-d6-XIg" userLabel="Reset Recognizer">
+                    <connections>
+                        <action selector="onResetGesture:" destination="BYZ-38-t0r" id="g2q-s6-SXJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-214.49275362318843" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
